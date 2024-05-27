@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="inicio de sesion" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-24T17:19:54" hostname="CHMEP865NFL3" time="97.55">
+  <properties/>
+  <testcase name="Login exitoso" classname="inicio de sesion" time="97.55"/>
+  <system-out><![CDATA[
+@AgregarReclutado @Test1
+Esquema del escenario: Login exitoso                                 ?[90m# src/test/resources/features/inicioSesion.feature:18?[0m
+  ?[32mDado ?[0m?[32mEl usuario ingresa a la pagina Web e ingresa sus credenciales?[0m ?[90m# co.com.templay.pom.stepdefinitions.LoginStepDefinitions.ingresaSusCredenciales(io.cucumber.datatable.DataTable)?[0m
+    | Admin | admin123 |
+  ?[32mCuando ?[0m?[32mingresar al menu de ?[0m?[32m?[1mRecruitment?[0m                             ?[90m# co.com.templay.pom.stepdefinitions.LoginStepDefinitions.ingresarAlMenuDeRecruitment(java.lang.String)?[0m
+  ?[32mY ?[0m?[32magrega la informacion de la persona?[0m                              ?[90m# co.com.templay.pom.stepdefinitions.LoginStepDefinitions.agregaNuevoReclutado()?[0m
+  ?[32mEntonces ?[0m?[32mvalido su estado ?[0m?[32m?[1mApplication Initiated?[0m                    ?[90m# co.com.templay.pom.stepdefinitions.LoginStepDefinitions.validoSuEstadoEstado(java.lang.String)?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 124.0.6367.207 (a9001a6e39fbaa559510ca866052950457dd4e6b-refs/branch-heads/6367_201@{#3}) on port 50127
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may 24, 2024 12:20:05 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+may 24, 2024 12:20:06 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, so returning the closest version found: a no-op implementation
+may 24, 2024 12:20:06 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 124.
+may 24, 2024 12:20:06 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>

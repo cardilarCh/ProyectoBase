@@ -1,0 +1,174 @@
+2024-01-26 20:18:22,150 INFO [Test worker] io.cucumber.core.plugin.SerenityReporter: Running feature from file:///D:/Cursos/Proyectos%20Java/ProyectoBasePOM/src/test/resources/features/inicioSesion.feature
+2024-01-26 20:18:22,370 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+2024-01-26 20:18:22,377 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: Test Suite Started: inicio de sesion
+2024-01-26 20:18:22,405 INFO [Test worker] io.cucumber.core.plugin.SerenityReporter: Running feature from file:///D:/Cursos/Proyectos%20Java/ProyectoBasePOM/src/test/resources/features/inicioSesion.feature
+2024-01-26 20:18:22,410 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: Test Suite Started: inicio de sesion
+2024-01-26 20:18:22,504 INFO [Test worker] io.cucumber.core.plugin.SerenityReporter: Running feature from file:///D:/Cursos/Proyectos%20Java/ProyectoBasePOM/src/test/resources/features/inicioSesion.feature
+2024-01-26 20:18:22,537 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+<Escenario>(inicio-de-sesion;<escenario>)
+--------------------------------------------------------------------------------
+2024-01-26 20:18:22,869 INFO [Test worker] net.serenitybdd.core.webdriver.driverproviders.DownloadableDriverProvider: Using automatically driver download
+2024-01-26 20:18:23,486 INFO [Test worker] io.github.bonigarcia.wdm.WebDriverManager: Using geckodriver 0.34.0 (resolved driver for Firefox 121)
+2024-01-26 20:18:23,509 INFO [Test worker] io.github.bonigarcia.wdm.WebDriverManager: Exporting webdriver.gecko.driver as C:\Users\Jose\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-01-26 20:18:30,947 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: abrir Pagina Web http://demo.guru99.com/V4/index.php
+2024-01-26 20:18:36,588 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Limpiando campos: ...
+2024-01-26 20:18:36,640 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Escribir usuario: adm1n
+2024-01-26 20:18:36,745 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Escribir clave: seren1ty
+2024-01-26 20:18:37,981 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+< escenario>
+----------------------------------------------------------------------
+2024-01-26 20:18:37,998 INFO [Test worker] io.cucumber.core.plugin.SerenityReporter: Running feature from file:///D:/Cursos/Proyectos%20Java/ProyectoBasePOM/src/test/resources/features/inicioSesion.feature
+2024-01-26 20:18:43,488 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: abrir Pagina Web http://demo.guru99.com/V4/index.php
+2024-01-26 20:18:48,678 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Limpiando campos: ...
+2024-01-26 20:18:48,723 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Escribir usuario: admin
+2024-01-26 20:18:48,818 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Escribir clave: serenity
+2024-01-26 20:18:50,161 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+< escenario>
+----------------------------------------------------------------------
+2024-01-29 08:44:20,642 INFO [Test worker] io.cucumber.core.plugin.SerenityReporter: Running feature from file:///C:/Users/jarturot/Documentos/Proyectos%20Choucair/ProyectoBasePOM/src/test/resources/features/inicioSesion.feature
+2024-01-29 08:44:20,932 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+2024-01-29 08:44:20,940 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: Test Suite Started: inicio de sesion
+2024-01-29 08:44:20,966 INFO [Test worker] io.cucumber.core.plugin.SerenityReporter: Running feature from file:///C:/Users/jarturot/Documentos/Proyectos%20Choucair/ProyectoBasePOM/src/test/resources/features/inicioSesion.feature
+2024-01-29 08:44:20,971 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: Test Suite Started: inicio de sesion
+2024-01-29 08:44:21,069 INFO [Test worker] io.cucumber.core.plugin.SerenityReporter: Running feature from file:///C:/Users/jarturot/Documentos/Proyectos%20Choucair/ProyectoBasePOM/src/test/resources/features/inicioSesion.feature
+2024-01-29 08:44:21,277 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+<Escenario>(inicio-de-sesion;<escenario>)
+--------------------------------------------------------------------------------
+2024-01-29 08:44:21,670 INFO [Test worker] net.serenitybdd.core.webdriver.driverproviders.DownloadableDriverProvider: Using WebDriverManager configuration for firefox
+2024-01-29 08:44:22,807 INFO [Test worker] io.github.bonigarcia.wdm.WebDriverManager: Using geckodriver 0.34.0 (resolved driver for Firefox 121)
+2024-01-29 08:44:22,824 INFO [Test worker] io.github.bonigarcia.wdm.WebDriverManager: Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2024-01-29 08:44:23,426 INFO [Test worker] io.github.bonigarcia.wdm.online.Downloader: Downloading https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-win64.zip
+2024-01-29 08:44:24,510 INFO [Test worker] io.github.bonigarcia.wdm.online.Downloader: Extracting driver from compressed file geckodriver-v0.34.0-win64.zip
+2024-01-29 08:44:24,545 INFO [Test worker] io.github.bonigarcia.wdm.WebDriverManager: Exporting webdriver.gecko.driver as C:\Users\jarturot\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-01-29 08:44:46,838 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: abrir Pagina Web http://demo.guru99.com/V4/index.php
+2024-01-29 08:44:52,692 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Limpiando campos: ...
+2024-01-29 08:44:52,761 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Escribir usuario: adm1n
+2024-01-29 08:44:52,909 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Escribir clave: seren1ty
+2024-01-29 08:44:54,405 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+< escenario>
+----------------------------------------------------------------------
+2024-01-29 08:44:54,434 INFO [Test worker] io.cucumber.core.plugin.SerenityReporter: Running feature from file:///C:/Users/jarturot/Documentos/Proyectos%20Choucair/ProyectoBasePOM/src/test/resources/features/inicioSesion.feature
+2024-01-29 08:45:00,089 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: abrir Pagina Web http://demo.guru99.com/V4/index.php
+2024-01-29 08:45:05,222 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Limpiando campos: ...
+2024-01-29 08:45:05,263 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Escribir usuario: admin
+2024-01-29 08:45:05,349 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Escribir clave: serenity
+2024-01-29 08:45:07,133 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+< escenario>
+----------------------------------------------------------------------
+2024-01-29 08:51:10,187 INFO [Test worker] io.cucumber.core.plugin.SerenityReporter: Running feature from file:///C:/Users/jarturot/Documentos/Proyectos%20Choucair/ProyectoBasePOM/src/test/resources/features/inicioSesion.feature
+2024-01-29 08:51:10,497 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+2024-01-29 08:51:10,506 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: Test Suite Started: inicio de sesion
+2024-01-29 08:51:10,549 INFO [Test worker] io.cucumber.core.plugin.SerenityReporter: Running feature from file:///C:/Users/jarturot/Documentos/Proyectos%20Choucair/ProyectoBasePOM/src/test/resources/features/inicioSesion.feature
+2024-01-29 08:51:10,557 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: Test Suite Started: inicio de sesion
+2024-01-29 08:51:10,708 INFO [Test worker] io.cucumber.core.plugin.SerenityReporter: Running feature from file:///C:/Users/jarturot/Documentos/Proyectos%20Choucair/ProyectoBasePOM/src/test/resources/features/inicioSesion.feature
+2024-01-29 08:51:10,944 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+<Escenario>(inicio-de-sesion;<escenario>)
+--------------------------------------------------------------------------------
+2024-01-29 08:51:11,392 INFO [Test worker] net.serenitybdd.core.webdriver.driverproviders.DownloadableDriverProvider: Using WebDriverManager configuration for firefox
+2024-01-29 08:51:11,840 INFO [Test worker] io.github.bonigarcia.wdm.WebDriverManager: Using geckodriver 0.34.0 (resolved driver for Firefox 121)
+2024-01-29 08:51:11,862 INFO [Test worker] io.github.bonigarcia.wdm.WebDriverManager: Exporting webdriver.gecko.driver as C:\Users\jarturot\.cache\selenium\geckodriver\win64\0.34.0\geckodriver.exe
+2024-01-29 08:51:34,845 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: abrir Pagina Web http://demo.guru99.com/V4/index.php
+2024-01-29 08:51:40,580 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Limpiando campos: ...
+2024-01-29 08:51:40,641 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Escribir usuario: adm1n
+2024-01-29 08:51:40,747 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Escribir clave: seren1ty
+2024-01-29 08:51:42,158 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+< escenario>
+----------------------------------------------------------------------
+2024-01-29 08:51:42,170 INFO [Test worker] io.cucumber.core.plugin.SerenityReporter: Running feature from file:///C:/Users/jarturot/Documentos/Proyectos%20Choucair/ProyectoBasePOM/src/test/resources/features/inicioSesion.feature
+2024-01-29 08:51:47,936 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: abrir Pagina Web http://demo.guru99.com/V4/index.php
+2024-01-29 08:51:53,078 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Limpiando campos: ...
+2024-01-29 08:51:53,124 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Escribir usuario: admin
+2024-01-29 08:51:53,216 INFO [Test worker] co.com.templay.pom.steps.LoginSteps: Escribir clave: serenity
+2024-01-29 08:51:54,623 INFO [Test worker] net.thucydides.core.logging.ConsoleLoggingListener: 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+< escenario>
+----------------------------------------------------------------------
