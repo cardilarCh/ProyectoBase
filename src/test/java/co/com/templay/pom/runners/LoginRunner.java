@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = "co.com.templay.pom.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         plugin = "pretty",
-        tags = "@AgregarReclutado"
+        tags = "@Prueba"
 )
 public class LoginRunner {
 }
