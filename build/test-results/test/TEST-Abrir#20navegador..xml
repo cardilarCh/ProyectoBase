@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Abrir navegador." tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-20T03:16:49" hostname="CHMEP865NFL3" time="41.995">
+  <properties/>
+  <testcase name="Prueba web" classname="Abrir navegador." time="41.995"/>
+  <system-out><![CDATA[
+@AgregarReclutado @Test1
+Escenario: Prueba web ?[90m# src/test/resources/features/inicioSesion.feature:7?[0m
+  ?[32mDado ?[0m?[32mabro navegador?[0m ?[90m# co.com.templay.pom.stepdefinitions.LoginStepDefinitions.ingresaSusCredenciales()?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 126.0.6478.62 (b2781ca4c383af675f7a25c7b03b4a54e25e559a-refs/branch-heads/6478_56@{#4}) on port 51927
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun 19, 2024 10:17:04 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+jun 19, 2024 10:17:04 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, so returning the closest version found: a no-op implementation
+jun 19, 2024 10:17:04 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 126.
+jun 19, 2024 10:17:04 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>
